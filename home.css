@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header img {
+	float: left;
+	width: 100px;
+	height: 100px;
+	background:
+}
+.header h1 {
+	position: relative;
+	top: 18px;
+	left: 10px;
+}
+}
+.nav {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: darkbl;
+    padding: 10px;
+    background-color:
+}
+.main {
+	margin: 20px;
+	background-color:
+}
+.shaded {
+background: white;
+}
+.home{
+	color: lightblue;
+	font-size: 37px;
+	font-family: monospace;
+	margin: 20px
+
+}
+.jesus{
+	background-color: lime;
+	color: blueviolet;
+	font-size: 30px;
+}

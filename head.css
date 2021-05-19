@@ -1,0 +1,75 @@
+.header{
+     margin: 20px;
+     padding: 10px
+}
+.plain{
+	background-color: darkblue;
+}
+.mainnav {
+	text-align: right;
+
+}
+.nav li{
+	display: inline;
+}
+.nav a{
+	text-decoration: none;
+	font-size: 20px;
+	padding: 30px;
+	color: lightblue;
+}
+.nav a:hover{
+	background: violet;
+	color: pink;
+	border-radius: 25px;
+}
+* {
+	box-sizing: border-box;
+}
+.searchbar input[type=text] {
+	padding: 10px;
+	font-size: 15px;
+	border: 1px;
+	float: right;
+	width: 220px;
+	background: #f1f1f1;
+	margin: 30px;
+}
+.searchbar button {
+	float: r;
+	width: 30px;
+	padding: 20px;
+	background: #2196F3;
+	color: white;
+	font-size: 20px;
+	border: 1px solid grey;
+	
+	cursor: pointer;
+}
+.searchbar::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.container {
+	display: inline;
+	cursor: pointer;
+}
+.bar1 .bar2 .bar3 {
+	width: 35px;
+	height: 5px;
+	background-color: #333;
+	margin: 6px 0;
+	transition: 0.45s;
+}
+.change .bar1 {
+	-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+	transform: rotate(-45deg) translate(-9px, 6px);
+}
+.change .bar2 {
+	opacity: 0;
+}
+.change .bar3 {
+	-webkit-transform: rotate(45deg) translate(-8px, 8px);
+	transform: rotate(45deg) translate(-8px, 8px);
+}
